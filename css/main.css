@@ -10,9 +10,10 @@
 	color: #59524d;
 }
 
-@media only screen and (max-width: 600px) {
+
+@media only screen and (max-width: 700px) {
 	.container-fluid {
-		font-size: 70%;
+		font-size: 50%;
 	}
 
 	.text-uppercase {
@@ -22,22 +23,18 @@
 }
 
 .row {
-	margin-top: 5px;
-	margin-bottom: 5px;
+	margin: 5px 0px;
 }
 
-.my-photo {
-	padding-top: 15px;
-	max-height: 120px !important;
-	max-width: 240px !important;
+img {
+    border-radius: 10px;
+    vertical-align: middle;
+    background: url(paper.gif);
+    padding: 1px;
 }
 
-.name h1 {
+.name-h1{
 	text-decoration: underline;
-}
-
-div .logo {
-	padding: 1%;
 }
 
 img:hover {
@@ -45,15 +42,11 @@ img:hover {
 	filter: sepia(75%);
 }
 
-.VMCLogo {
-	border: 1px solid #2F688A;
+.udacity-logo {
+	margin-top: 40px;
 }
-.UdacityLogo {
-	border: 1px solid #ED7733;
-}
-.MontrealLogo {
-	border: 1px solid #e93f36;
-}
+
+
 
 
 
